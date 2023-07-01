@@ -1,0 +1,7 @@
+labelme 
+tensorflow==2.10.1 
+tensorflow-gpu==2.10.1 
+opencv-python 
+matplotlib 
+albumentations
+
