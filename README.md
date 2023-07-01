@@ -6,12 +6,12 @@ This project aims to provide a robust solution for real-time face(potentially an
 
 The project is structured into several Python scripts, each handling a specific aspect of the pipeline:
 
-1. `data_collection.py` - for collecting hand gesture data.
+1. `data_collection.py` - for collecting face/object data.
 2. `data_augmentation.py` - for augmenting collected data.
 3. `model.py` - for defining the Machine Learning model structure.
 4. `training.py` - for loading and preprocessing data for training.
 5. `training.py` - for training the model on the data.
-6. `live_detection.py` - for performing real-time hand gesture recognition.  
+6. `live_detection.py` - for performing real-time face/object detection.  
 7. `run.py` - a utility script to run the above modules from the command line.
 
 ## Getting Started
@@ -41,6 +41,7 @@ python run.py train_model
 python run.py live_detection
 python run.py collect_data augment_data train_model live_detection
 python run.py augment_data train_model live_detection
+......
 ```
 ## Labeling with "Labelme"  
 ### Must use Rectagle to label the captures.  
