@@ -42,7 +42,7 @@ python run.py live_detection
 python run.py collect_data augment_data train_model live_detection
 python run.py augment_data train_model live_detection
 ```
-## Labeling  
+## Labeling with "Labelme"  
 ### Must use Rectagle to label the captures.  
 
 ![Example Image](./demos/labeling.png)  
