@@ -43,12 +43,15 @@ python run.py collect_data augment_data train_model live_detection
 python run.py augment_data train_model live_detection
 ......
 ```
+
+#### Configurations can be set in `config.py`  
 ## Labeling with "Labelme"  
 ### Must use Rectagle to label the captures.  
 
 ![Example Image](./demos/labeling.png)  
 
-### PS.Stop camera when it is running, simply type 'q' to quit! If it did not stop properly, try `python run.py Force_camera_off`
+#### PS. To stop camera when it is running, simply type 'q' to quit!   
+If it did not stop properly, try `python run.py Force_camera_off`
 
 
 ## Live Detection Demos:  
