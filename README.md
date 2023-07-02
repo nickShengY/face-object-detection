@@ -48,7 +48,7 @@ python run.py augment_data train_model live_detection
 
 ![Example Image](./demos/labeling.png)  
 
-## PS.Stop camera when it is running, simply type 'q' to quit! If it did not stop properly, try `python run.py Force_camera_off`
+### PS.Stop camera when it is running, simply type 'q' to quit! If it did not stop properly, try `python run.py Force_camera_off`
 
 
 ## Live Detection Demos:  
