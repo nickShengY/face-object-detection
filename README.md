@@ -45,9 +45,11 @@ python run.py augment_data train_model live_detection
 ```
 ## Labeling with "Labelme"  
 ### Must use Rectagle to label the captures.  
-## Stop camera when it is running, simply type 'q' to quit
 
 ![Example Image](./demos/labeling.png)  
+
+## PS.Stop camera when it is running, simply type 'q' to quit! If it did not stop properly, try `python run.py force_stop_camera`
+
 
 ## Live Detection Demos:  
 
